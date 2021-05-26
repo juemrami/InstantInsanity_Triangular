@@ -1,7 +1,6 @@
 # InstantInsanity_Triangular
 Attempt to solve an instant insanity puzzle with puzzle pieces in the shape of triangles, where ever face is an opposite face
-
-#About
+## About
 This program solves for a puzzle of up to a size of 30 stacked slices.
 
 The puzzle is considered solved when the stack of 30 triangular slices with colored sides contain no more than 1 of each color per side of the entire stack.
@@ -11,9 +10,9 @@ If the program fails to find a solution it will find the minimum obstacle which 
 
 This program and puzzle are a variation of the Cube shaped Instant Insanity Problem
 
-#Requirements
+## Requirements
 Python 3.0
-#Design
+## Design
 The algorithm is a DFS/BFS style algorithm that prioritizes slice rotation positions which can be
 successfully added to the solution space (no interference) for any given slice in the stack
 If at anypoint, the current slice the algorithm is working on cannot be added to the solution
